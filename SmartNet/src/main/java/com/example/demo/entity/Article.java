@@ -59,7 +59,19 @@ public class Article implements Serializable{
 		return "Article [id=" + id + ", identifiant=" + identifiant + ", designation_oper=" + designation_oper
 				+ ", unite=" + unite + ", type=" + type + ", prix=" + prix + "]";
 	}
-
+	
+	public Article(Long id, String identifiant, String designation_oper, String unite, String type, double prix) {
+		super();
+		this.id = id;
+		this.identifiant = identifiant;
+		this.designation_oper = designation_oper;
+		this.unite = unite;
+		this.type = type;
+		this.prix = prix;
+	}
+	public Article() {
+	}
+	
 	
 
 }
