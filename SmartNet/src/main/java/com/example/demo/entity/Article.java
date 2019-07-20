@@ -59,10 +59,7 @@ public class Article implements Serializable{
 		return "Article [id=" + id + ", identifiant=" + identifiant + ", designation_oper=" + designation_oper
 				+ ", unite=" + unite + ", type=" + type + ", prix=" + prix + "]";
 	}
-	
-	public Article() {
-	}
-	
+
 	
 
 }
